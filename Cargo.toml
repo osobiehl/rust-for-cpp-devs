@@ -1,0 +1,57 @@
+[package]
+name = "rust_for_cpp_devs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[[bin]]
+name = "01_variables"
+path = "01_basic_syntax/01_variables.rs"
+
+[[bin]]
+name = "02_control_flow"
+path = "01_basic_syntax/02_control_flow.rs"
+
+[[bin]]
+name = "01_arrays_and_slices"
+path = "02_common_uses/01_arrays_and_slices.rs"
+
+[[bin]]
+name = "02_tuples"
+path = "02_common_uses/02_tuples.rs"
+
+[[bin]]
+name = "03_user_types"
+path = "02_common_uses/03_user_types.rs"
+
+[[bin]]
+name = "04_interfaces"
+path = "02_common_uses/04_interfaces.rs"
+
+[[bin]]
+name = "05_enums"
+path = "02_common_uses/05_enums.rs"
+
+
+[[bin]]
+name = "06_iterators"
+path = "02_common_uses/06_iterators.rs"
+
+[[bin]]
+name = "01_borrow_checking"
+path = "03_borrow_checking/01_references.rs"
+
+[[bin]]
+name = "01_references"
+path = "03_borrow_checking/01_references.rs"
+
+[[bin]]
+name = "01_result"
+path = "04_error_handling/01_result.rs"
+
+[[bin]]
+name = "02_try_operator"
+path = "04_error_handling/02_try_operator.rs"
+
+[dependencies]
