@@ -54,4 +54,12 @@ path = "04_error_handling/01_result.rs"
 name = "02_try_operator"
 path = "04_error_handling/02_try_operator.rs"
 
+[[bin]]
+name = "01_fizz_buzz"
+path = "05_basic_exercises/01_fizz_buzz.rs"
+
+[[bin]]
+name = "02_palindrome_io"
+path = "05_basic_exercises/02_palindrome_io.rs"
+
 [dependencies]
